@@ -1,7 +1,7 @@
 Mac DRAC Automation
 ----
 
-***SECURITY NOTE:** This workflow will open any and all files starting with viewer.jnlp with javaws when they land in your Downloads directory.  If you regularly work in environments where this could open you up to potential system compromise, don't use it on your default Downloads directory.*
+**SECURITY NOTE:** *This workflow will open any and all files starting with viewer.jnlp with javaws when they land in your Downloads directory.  If you regularly work in environments where this could open you up to potential system compromise, don't use it on your default Downloads directory.*
 
 DRAC 7 interfaces provide a horribly named JNLP file that is difficult to open without renaming the file or using `/usr/bin/javaws` on it directly.  This workflow will automatically open the JNLP file using javaws on your Mac.
 
