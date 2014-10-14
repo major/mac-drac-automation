@@ -9,7 +9,7 @@ DRAC 7 interfaces provide a horribly named JNLP file that is difficult to open w
 
 To set it up, move the workflow file from the repository into the folder actions folder in your home directory:
 
-    my "Open DRAC jnlp file.workflow" "~/Library/Workflows/Applications/Folder Actions/"
+    mv "Open DRAC jnlp file.workflow" "~/Library/Workflows/Applications/Folder Actions/"
 
 Open a Finder window within your home directory:
 
